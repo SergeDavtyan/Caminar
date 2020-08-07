@@ -1,0 +1,51 @@
+.special {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.special h2 {
+  font-size: 28px;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.special h2:before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 10%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.125);
+}
+
+.special p {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #BBBBBB;
+  margin: 0;
+}
+
+.special-two {
+  background: black;
+  padding: 32px;
+}
+
+.special-two h2 {
+  color: white;
+  margin-bottom: 16px;
+}
+
+.special-two h2:before {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.special-two p {
+  color: rgba(255, 255, 255, 0.25);
+}
+/*# sourceMappingURL=special.css.map */

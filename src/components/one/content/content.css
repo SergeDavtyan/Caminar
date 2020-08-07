@@ -1,0 +1,14 @@
+.content {
+  padding: 95px;
+  background: white;
+}
+
+.content p {
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.content p:nth-of-type(1) {
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=content.css.map */
